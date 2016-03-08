@@ -1,8 +1,48 @@
 /*Base*/
 
+body {
+  font-family: arial;
+  color: #47a3da;
+}
+
+
 /*Layout*/
 
+.page--container {
+  width: 1000px;
+  height: 1000px;
+  background-color: lightgrey;
+}
+
+.page--content {
+  width: 400px;
+  height: 450px;
+  border: 3px solid #47a3da;
+  position: relative;
+
+}
+
+.page--item {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  padding: 3em;
+
+}
+
+.icon-box--icon {
+  height: 80px;
+  width: 80px;
+  float: left;
+  top: 370px;
+  position: absolute;
+  border-top: 3px solid #47a3da;
+  border-right: 3px solid #47a3da;
+}
+
+
 /*Modules*/
+
 
 /*State*/
 
