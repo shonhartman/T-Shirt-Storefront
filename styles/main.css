@@ -1,6 +1,35 @@
 /*Base*/
 
+* {
+  box-sizing: border-box;
+}
 /*Layout*/
+
+.container {
+  /*background-color: lightgrey;*/
+  width: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+.t-shirt-box {
+  border: 3px solid lightblue;
+  width: 500px;
+  height: 500px;
+}
+
+.icon-box--icon {
+  width: 100px;
+  height: 50px;
+  float: left;
+  border-left: 3px solid lightblue;
+  border-bottom: 3px solid lightblue;
+}
+
+.icon-box--icon:last-child {
+  border-right: 3px solid lightblue;
+
+}
 
 /*Modules*/
 
