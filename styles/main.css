@@ -14,11 +14,14 @@
 }
 
 .t-shirt-box {
-  background-image: image();
+  background-image: url('../images/shirts/1_front.png');
+  background-position: center;
   border: 3px solid lightblue;
   width: 500px;
   height: 500px;
   position: relative;
+  background-repeat: no-repeat;
+  padding: 10px;
 }
 
 .icon-box--icon {
@@ -34,6 +37,7 @@
 
 .icon-box--compare {
   background-image: url('../images/icons/button_1.png');
+  background-position: center;
   width: 75px;
   height: 70px;
   position: absolute;
@@ -45,6 +49,7 @@
 .icon-box--icon:last-child {
   border-right: 3px solid lightblue;
   background-image: url('../images/icons/button_3.png');
+  background-position: center;
 
 
 }
@@ -57,8 +62,15 @@
   /*position: absolute;*/
 }
 
+.icon-box--icon:hover .icon-box--colored-box:nth-child(2) {
+  background-image: url('../images/icons/button_2_hover.png');
+  background-position: center;
+  visibility: visible;
+}
+
 .icon-box--icon:hover .icon-box--colored-box:last-child {
   background-image: url('../images/icons/button_3_hover.png');
+  background-position: center;
   visibility: visible;
 }
 
