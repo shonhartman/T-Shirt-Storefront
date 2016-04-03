@@ -51,6 +51,7 @@ h1:hover {
 
 .icon-box--icon:last-child {
   border-right: none;
+  width: 78px;
 }
 
 .icon-box--icon:hover {
